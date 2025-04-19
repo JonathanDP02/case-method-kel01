@@ -1,15 +1,14 @@
 public class mataKuliah01 {
-    String kodemk;
-    String namamk;
+    String kodeMK, namaMK;
     int sks;
 
-    public mataKuliah01(String km, String nm, int sk){
-        km = kodemk;
-        nm = namamk;
-        sk = sks;
+    mataKuliah01(String kodeMK, String namaMK, int sks) {
+        this.kodeMK = kodeMK;
+        this.namaMK = namaMK;
+        this.sks = sks;
     }
 
-    public void tampilMatakuliah(){
-        System.out.println("Kode MK: " + kodemk + " | Nama: " + namamk + " | SKS: " + sks);
+    void tampilMataKuliah() {
+        System.out.println("Kode MK: " + kodeMK + ", " + "Nama: " + namaMK + ", " + "SKS: " + sks);
     }
 }
